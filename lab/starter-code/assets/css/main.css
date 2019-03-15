@@ -23,30 +23,30 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;} */
+	vertical-align: baseline;}
 
-/* article, aside, details, figcaption, figure,
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;} */
+	display: block;}
 
-/* body {
+body {
 	line-height: 1;
-} */
+}
 
-/* ol, ul {
+ol, ul {
 	list-style: none;
-} */
+}
 
-/* blockquote, q {
+blockquote, q {
 	quotes: none;
-} */
+}
 
-	/* blockquote:before, blockquote:after, q:before, q:after {
+	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
-	} */
+	}
 
-/* table {
+table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
@@ -76,22 +76,22 @@ input, select, textarea {
 
 	/* html {
 		box-sizing: border-box;
-	} */
+	}
 
-	/* *, *:before, *:after {
+	*, *:before, *:after {
 		box-sizing: inherit;
-	} */
+	}
 
-	/* body {
+	body {
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
-	} */
+	}
 
-		/* body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
@@ -100,9 +100,9 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
-		} */
+		}
 
-	/* input, textarea, select {
+	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
@@ -140,9 +140,9 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1.5em;
-	} */
+	}
 
-	/* header {
+	header {
 		margin: 0 0 2em 0;
 	}
 
@@ -152,9 +152,9 @@ input, select, textarea {
 
 	footer {
 		margin: 2em 0 0 0;
-	} */
+	}
 
-	/* strong, b {
+	strong, b {
 		font-weight: 300;
 		color: #666;
 	}
@@ -177,9 +177,9 @@ input, select, textarea {
 		a:hover {
 			color: #E27689;
 			border-bottom-color: rgba(255, 255, 255, 0);
-		} */
+		}
 
-	/* sub {
+	sub {
 		position: relative;
 		top: 0.5em;
 		font-size: 0.8em;
@@ -189,9 +189,9 @@ input, select, textarea {
 		position: relative;
 		top: -0.5em;
 		font-size: 0.8em;
-	} */
+	}
 
-	/* hr {
+	hr {
 		border: 0;
 		border-top: solid 1px #ddd;
 	}
@@ -258,8 +258,8 @@ input, select, textarea {
 
 		} */
 
-/* Row
-
+/* Row */
+/* 
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -744,9 +744,9 @@ input, select, textarea {
 							padding-top: 80px;
 						}
 
-		}
+		} */
 
-		@media screen and (min-width: 961px) and (max-width: 1620px) {
+		/* @media screen and (min-width: 961px) and (max-width: 1620px) {
 
 			.row {
 				display: flex;
@@ -1812,8 +1812,8 @@ input, select, textarea {
 		} */
 
 /* Icons */
-/* 
-	ul.icons {
+
+	/* ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
@@ -1979,7 +1979,7 @@ input, select, textarea {
 
 /* Item */
 
-	.item {
+	/* .item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
 	}
@@ -1993,7 +1993,7 @@ input, select, textarea {
 
 			.item header h3 {
 				font-size: 1em;
-			}
+			} */
 
 /* Icons */
 
@@ -2281,10 +2281,10 @@ input, select, textarea {
 
 /* Normal */
 
-	/* @media screen and (min-width: 961px) and (max-width: 1620px) {
+	/* @media screen and (min-width: 961px) and (max-width: 1620px) { */
 
 		/* Main */
-
+/* 
 			#main > section {
 				padding: 3em 0;
 			}
@@ -2303,9 +2303,9 @@ input, select, textarea {
 
 			/* body, input, textarea, select {
 				font-size: 16pt;
-			} */
+			}
 
-			/* .container {
+			.container {
 				padding: 0 2em 0 2em;
 			} */
 
@@ -2358,9 +2358,9 @@ input, select, textarea {
 
 			/* #main {
 				margin-left: 20%;
-			} */
+			}
 
-	}
+	} */
 
 /* Narrower */
 
@@ -2371,8 +2371,8 @@ input, select, textarea {
 	@media screen and (max-width: 960px) { */
 
 		/* Basic */
-
-			/* html, body {
+/* 
+			html, body {
 				overflow-x: hidden;
 			}
 
@@ -2402,8 +2402,8 @@ input, select, textarea {
 			} */
 
 		/* Header */
-/* 
-			#header {
+
+			/* #header {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2523,8 +2523,8 @@ input, select, textarea {
 			} */
 
 		/* Footer */
-/* 
-			#footer {
+
+			/* #footer {
 				margin-left: 0;
 			} */
 
@@ -2577,8 +2577,8 @@ input, select, textarea {
 
 			/* ul.icons a {
 				width: 2em;
-				font-size: 1.25em; */
-			}
+				font-size: 1.25em;
+			} */
 
 		/* Main */
 
