@@ -30,6 +30,18 @@ h3 {
   font-size: 1.5em;
 }
 
+header {
+  margin: 0 0 2em 0;
+}
+
+  header > p {
+    margin: 1em 0 0 0;
+  }
+
+footer {
+  margin: 2em 0 0 0;
+}
+
 strong, b {
   font-weight: 300;
   color: #666;
@@ -65,4 +77,15 @@ sup {
   position: relative;
   top: -0.5em;
   font-size: 0.8em;
+}
+
+hr {
+  border: 0;
+  border-top: solid 1px #ddd;
+}
+
+blockquote {
+  border-left: solid 0.5em #ddd;
+  padding: 1em 0 1em 2em;
+  font-style: italic;
 }
