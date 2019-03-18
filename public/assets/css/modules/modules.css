@@ -515,7 +515,8 @@ button,
 
     #main > section.dark {
       color: #ddd;
-      color: rgba(255, 255, 255, 0.75);
+      color: rgba(0, 0, 0, 0.75);
+  
     }
 
       #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -543,8 +544,8 @@ button,
     }
 
     #main > section.one {
-      background-color: #81918E;
-      background-image: url("/images/computer2.jpg");
+      height:612px;
+      /* background-image: url("/images/computer2.jpg"); */
     }
 
     #main > section.two {
@@ -558,3 +559,19 @@ button,
     #main > section.four {
       background-color: #e8edec;
     }
+
+    #video{
+      position: relative;      
+      height:auto;
+      width:51em;
+      margin:0;
+    }
+
+    #ontop{
+      position: absolute;
+      z-index:100;
+      top:25%;
+      left: 28%
+    }
+
+    
