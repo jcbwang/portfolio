@@ -1023,6 +1023,7 @@
 					.row.gtr-200.gtr-uniform > * {
 						padding-top: 40px;
 					}
+					
 
 	}
 
@@ -1063,11 +1064,11 @@
 		/* Main */
 
 			#main > section {
-				padding: 3em 0;
+				/* padding: 3em 0; */
 			}
 
 			#main section.cover {
-				padding: 5em 0;
+				/* padding: 5em 0; */
 			}
 
 	}
@@ -1136,6 +1137,13 @@
 			#main {
 				margin-left: 20%;
 			}
+			#ontop{
+				left: 10%
+			}
+			#main > section.dark a {
+        color: rgb(8, 8, 8);
+        border-color: inherit;
+      }
 
 	}
 
@@ -1326,6 +1334,13 @@
 
 				#main section.cover {
 					padding: 4em 0;
+				}
+				#ontop{
+					left: 0%
+				}
+				#main > section.dark a {
+					color: rgb(10, 10, 10);
+					border-color: inherit;
 				}
 
 	}
